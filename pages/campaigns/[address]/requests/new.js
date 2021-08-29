@@ -3,7 +3,7 @@ import { Form, Button, Message, Input } from 'semantic-ui-react';
 import Campaign from '../../../../ethereum/campaign';
 import web3 from '../../../../ethereum/web3';
 import { useRouter } from 'next/router';
-import useCampaign from './useCampaign';
+import useCampaign from '../../../../hooks/useCampaign';
 
 const RequestNew = ({ address }) => {
   const router = useRouter();

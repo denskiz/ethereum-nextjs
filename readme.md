@@ -20,3 +20,6 @@ https://rinkeby.infura.io/v3/6aac53e41a1b4de7b1f68b5ffcc79262
 https://github.com/eduwr/kickstarter-ether
 
 https://faucet.rinkeby.io/
+
+Features to add:
+array of struts. video: 223. Requests One by One

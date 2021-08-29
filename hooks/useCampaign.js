@@ -1,4 +1,4 @@
-import Campaign from '../../../../ethereum/campaign';
+import Campaign from '../ethereum/campaign';
 
 const useCampaign = (address) => {
   if (!address || typeof address !== 'string') {
