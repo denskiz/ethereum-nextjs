@@ -1,3 +1,11 @@
+# Ethereum App
+
+## Built with:
+
+Solidity 0.4.19
+Next.js
+Semantic UI
+
 cd ethereum
 node deploy.js
 to deploy the etherium contract to the rinkby network
