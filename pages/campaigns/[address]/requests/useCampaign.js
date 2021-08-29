@@ -1,6 +1,6 @@
 import Campaign from '../../../../ethereum/campaign';
 
-export const useCampaign = (address) => {
+const useCampaign = (address) => {
   if (!address || typeof address !== 'string') {
     throw new Error(`${address} is not a valid address!`);
   }
@@ -21,3 +21,5 @@ export const useCampaign = (address) => {
     manager: methods.manager,
   };
 };
+
+export default useCampaign;
