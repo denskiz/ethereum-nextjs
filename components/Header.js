@@ -1,21 +1,22 @@
-import React from 'react';
 import { Menu } from 'semantic-ui-react';
-import { Link } from '../routes';
+import Link from 'next/link';
 
 const Header = () => {
   return (
-    <Menu style={{ marginTop: '10px' }}>
-      <Link route="/">
-        <a className="item">Etherium Kickstarter</a>
+    <Menu
+      style={{
+        marginTop: 10,
+      }}
+    >
+      <Link href="/">
+        <Menu.Item>CrowdCoin</Menu.Item>
       </Link>
-
       <Menu.Menu position="right">
-        <Link route="/">
-          <a className="item">Campaigns</a>
+        <Link href="/">
+          <Menu.Item>Campaigns</Menu.Item>
         </Link>
-
-        <Link route="/campaigns/new">
-          <a className="item">+</a>
+        <Link href="/campaigns/new">
+          <Menu.Item>+</Menu.Item>
         </Link>
       </Menu.Menu>
     </Menu>

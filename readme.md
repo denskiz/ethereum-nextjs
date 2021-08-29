@@ -1,5 +1,7 @@
 # Ethereum App
 
+A kickstarter clone built on the ethereum blockchain
+
 The final project from the course: Ethereum and Solidity: The Complete Developer's Guide
 
 ## Built with:

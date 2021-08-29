@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "dev": "node server.js",
-    "build": "next build"
+    "build": "next build",
+    "compile": "node ./ethereum/compile.js",
+    "deploy": "node ./ethereum/deploy.js",
+    "start": "next dev"
   },
   "author": "",
   "license": "ISC",
