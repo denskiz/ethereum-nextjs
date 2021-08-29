@@ -9,7 +9,7 @@ const Header = () => {
       }}
     >
       <Link href="/">
-        <Menu.Item>CrowdCoin</Menu.Item>
+        <Menu.Item>KickStarter Ethereum</Menu.Item>
       </Link>
       <Menu.Menu position="right">
         <Link href="/">
