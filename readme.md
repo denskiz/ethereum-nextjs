@@ -4,8 +4,8 @@ The final project from the course: Ethereum and Solidity: The Complete Developer
 
 ## Built with:
 
-Solidity 0.4.19
-Next.js
+Solidity 0.4.19,
+Next.js,
 Semantic UI
 
 cd ethereum
@@ -14,3 +14,5 @@ to deploy the etherium contract to the rinkby network
 
 infura rinky network:
 https://rinkeby.infura.io/v3/6aac53e41a1b4de7b1f68b5ffcc79262
+
+https://github.com/eduwr/kickstarter-ether

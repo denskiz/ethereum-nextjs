@@ -1,10 +1,10 @@
-import React from "react";
-import { Menu } from "semantic-ui-react";
-import { Link } from "../routes";
+import React from 'react';
+import { Menu } from 'semantic-ui-react';
+import { Link } from '../routes';
 
-export default () => {
+const Header = () => {
   return (
-    <Menu style={{ marginTop: "10px" }}>
+    <Menu style={{ marginTop: '10px' }}>
       <Link route="/">
         <a className="item">Etherium Kickstarter</a>
       </Link>
@@ -21,3 +21,5 @@ export default () => {
     </Menu>
   );
 };
+
+export default Header;
