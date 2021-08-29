@@ -1,5 +1,7 @@
 # Ethereum App
 
+The final project from the course: Ethereum and Solidity: The Complete Developer's Guide
+
 ## Built with:
 
 Solidity 0.4.19
