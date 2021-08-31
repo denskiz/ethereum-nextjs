@@ -6,9 +6,11 @@ The final project from the course: Ethereum and Solidity: The Complete Developer
 
 ## Built with:
 
-Solidity 0.4.19,
-Next.js,
-Semantic UI
+- Solidity 0.8.7
+- Next.js,
+- Semantic UI CSS
+- Semantic UI React
+- Web3
 
 cd ethereum
 node deploy.js
