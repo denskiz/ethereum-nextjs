@@ -25,3 +25,6 @@ https://faucet.rinkeby.io/
 
 Features to add:
 array of struts. video: 223. Requests One by One
+
+contract = 0x2e25Ab44b5aCe0E6DD843176Ec5C529781779D71
+Add this to factory.js file
