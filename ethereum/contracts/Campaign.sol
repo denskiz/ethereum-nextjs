@@ -80,8 +80,9 @@ contract Campaign {
 // Called by each contributor to to approve a spending request
     function approveRequest(uint index) public {
         Request storage request = requests[index];
-
+// Check that they have donated 
         require(approvers[msg.sender]);
+        // Check that they have not voted before
         require(!request.approvals[msg.sender]);
 
         request.approvals[msg.sender] = true;
